@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'SerMag.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'SerMag',
+        'NAME': 'sermag',
         'USER': 'root',
         'PASSWORD': '123456',
         'HOST': 'localhost',
