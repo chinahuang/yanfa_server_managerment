@@ -33,6 +33,9 @@ class asset(models.Model):
         db_table = 'asset'
         verbose_name = '资产管理'
         verbose_name_plural = '资产管理'
+        permissions = {
+            ('read_asset',u'只读资产管理'),
+        }
 
         def __str__(self):
             return self.asset_ID
